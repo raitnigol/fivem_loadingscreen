@@ -1,5 +1,10 @@
 # fivem_loadingscreen
-FiveM loadingscreen with youtube audio support, being able to skip/pause audio. Shows song name.
+Loading screen with added features:
+- Able to change song when pressing button "A" from your keyboard.
+- Press spacebar to mute/unmute audio with color indicator.
+- Show current playing song name on loading screen.
+- Can add your discord link.
+- Shows real time that is customizable to your needs if you are willing to change the source code.
 ## Requirements
 No previous requirements are needed. Just install this resource and you are good to go!
 
