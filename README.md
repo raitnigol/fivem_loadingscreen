@@ -59,7 +59,7 @@ songnames: ["Dynoro & Gigi D’Agostino - In My Mind", "Mati Nuude - See Väike 
 
 ### Changing the song volume
 You can change the volume of the songs from 0 to 100. Volume should be below 50% to avoid earraping people.
-To change the volume of the songs, you can do it in ´js/config.js at line 17`
+To change the volume of the songs, you can do it in `js/config.js at line 17`
 ```
 musicvolume = 40
 ```
