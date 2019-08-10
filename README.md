@@ -63,3 +63,7 @@ To change the volume of the songs, you can do it in `js/config.js at line 17`
 ```
 musicvolume = 40
 ```
+
+### Useful links
+- [JavaScript arrays](https://www.javatpoint.com/javascript-array)
+- [Get the video ID of a YouTube video](https://gist.github.com/jakebellacera/d81bbf12b99448188f183141e6696817)
