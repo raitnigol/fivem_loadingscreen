@@ -1,0 +1,11 @@
+#changeColor, #showRealTime {
+	font-weight: bold;
+}
+
+#changeColor {
+	color: green;
+}
+
+#discord {
+	margin-top: 30px;
+}
