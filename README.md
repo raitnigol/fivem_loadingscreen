@@ -1,13 +1,12 @@
-# fivem_loadingscreen
+# nigol_loadingscreen
 Loading screen with added features:
-- Able to change song when pressing button "A" from your keyboard.
-- Press spacebar to mute/unmute audio with color indicator.
-- Show current playing song name on loading screen.
-- Can add your discord link.
-- Shows real time that is customizable to your needs if you are willing to change the source code.
+- Able to change the currently playing song when pressing the button "A" from your keyboard. (Can be configured to your needs)
+- Press spacebar to mute/unmute audio with color indication.
+- Show current playing song name on the loading screen.
+- Footer text (the place where usually your server's discord link goes).
+- Shows real world time on the loading screen.
 ## Requirements
 No previous requirements are needed. Just install this resource and you are good to go!
-
 ## Downloading
 ### Git
 ```
@@ -20,7 +19,7 @@ git clone https://github.com/raitnigol/fivem_loadingscreen resources/fivem_loadi
 - Put it in your resources folder
 
 # Installing
-- Add the resource to your `server.cfg`:
+- Add the resource to your <b>server.cfg</b>:
 ```
 start fivem_loadingscreen
 ```
@@ -37,7 +36,7 @@ The resolution should be 480x480 pixels, or you can adjust it according to your 
 # Adding songs / song names
 
 ## Adding songs
-To add songs, you must open the file `js/config.js at line 12:`
+To add songs, you must open the file <b>js/config.js at line 12:</b>
 ```
 music: ["videoID", "videoID"],
 ```
