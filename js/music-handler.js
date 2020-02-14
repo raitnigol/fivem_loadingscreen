@@ -60,8 +60,10 @@ function onPlayerError(event) {
             break;
         case 5:
             logger.addToLog("An HTML 5 player issue occured on video id: " + vid);
+            break;
         case 100:
             logger.addToLog("Video " + vid + "does not exist, wrong video id?");
+            break;
         case 101:
         case 150:
             logger.addToLog("Embedding for video id " + vid + " was not allowed.");
