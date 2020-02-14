@@ -71,3 +71,5 @@ musicvolume = 40
 ### Useful links
 - [JavaScript arrays](https://www.javatpoint.com/javascript-array)
 - [Get the video ID of a YouTube video](https://gist.github.com/jakebellacera/d81bbf12b99448188f183141e6696817)
+
+[![DeepScan grade](https://deepscan.io/api/teams/7460/projects/9551/branches/125860/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=7460&pid=9551&bid=125860)
