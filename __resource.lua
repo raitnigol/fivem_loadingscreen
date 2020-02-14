@@ -1,8 +1,6 @@
 files {	
     'index.html',
     'css/keks.css',
-    'css/colors.css',
-    'css/icomoon.css',
     'css/style.css',
     'js/demo.js',
     'js/jquery.particleground.js',
