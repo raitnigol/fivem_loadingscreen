@@ -15,8 +15,6 @@ if (config.enableMusic) {
 }
 
 function onYouTubeIframeAPIReady() {
-    var videoId = config.music[musicIndex];
-
     player = new YT.Player('player', {
         width: '1',
         height: '',
