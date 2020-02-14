@@ -111,7 +111,7 @@ function setVolume(volume) {
 // code added by Nigol (github.com/raitnigol)
 // get songname and show on screen
 var songName = config.songnames[musicIndex];
-document.getElementById("currentSong").innerHTML = "Song: " + songName;
+document.getElementById("currentSong").innerHTML = "Currently playing: " + songName;
 //mute when pressing spacebar 
 var keyPressed = document.getElementById("changeColor");
 
@@ -137,23 +137,18 @@ function onKeyDown2(event) {
         case 65:
             if (play) {
                 // warmup the script so maybe we get better
-                var i;
+                let i = 0;
                 lastSong = musicIndex;
-                for (i = 0; i < 100; i++) {
-                    musicIndex = Math.floor(Math.random() * config.music.length);
-                }
+                for (i = 0; i < 100; i++) { musicIndex = Math.floor(Math.random() * config.music.length); }
 
-                while (lastSong == musicIndex) {
-                    musicIndex = Math.floor(Math.random() * config.music.length);
-                }
+                while (lastSong == musicIndex) { musicIndex = Math.floor(Math.random() * config.music.length); }
+
                 songName = config.songnames[musicIndex]
-                document.getElementById("currentSong").innerHTML = "Song: " + songName;
+                document.getElementById("currentSong").innerHTML = "Currently playing: " + songName;
                 var idx = musicIndex % config.music.length;
                 var videoId = config.music[idx];
                 player.loadVideoById(videoId, 0, "tiny");
                 player.playVideo();
-            } else {
-                var x = x;
             }
             break;
     }
