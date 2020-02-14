@@ -126,11 +126,6 @@
       for (var i = 0; i < particles.length; i++) {
         particles[i].draw();
       };
-
-      // Call this function next time screen is redrawn
-      if (!paused) {
-        raf = requestAnimationFrame(draw);
-      }
     }
 
     /**
