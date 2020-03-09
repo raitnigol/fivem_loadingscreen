@@ -14,8 +14,8 @@ function startTime() {
   var day = today.getDate();  
   m = checkTime(m);
   s = checkTime(s);
-  var t = setTimeout(startTime, 500);
   document.getElementById("showRealTime").innerHTML = `${month} ${day} | ${h}:${m}:${s}`;
+  setTimeout(startTime, 500);
 }
 
 function checkTime(i) {
