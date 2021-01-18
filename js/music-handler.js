@@ -105,8 +105,8 @@ function setVolume(volume) {
     player.setVolume(volume)
 }
 
-// code added by Nigol (github.com/raitnigol)
-// get songname and show on screen
+// Code added by Nigol (github.com/raitnigol).
+// Get the song name and show it on the loading screen.
 var songName = config.songnames[musicIndex];
 document.getElementById("currentSong").innerHTML = "Currently playing: " + songName;
 //mute when pressing spacebar 
