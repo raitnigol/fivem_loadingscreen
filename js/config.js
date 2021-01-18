@@ -8,9 +8,28 @@
         - Copyrighted music (youtube actively blocks this).
 */
 
-var config = {    
-    music: ["cqwmDWCRuCU", "9yplucq49zs"],
-    songnames: ["Mati Nuude - Seitse kivist inglit", "Mati Nuude - Korraks Vaid"],
+/*
+	Update the config according to your needs. Two songs are added by default to show how to use the configuration.
+	Note: JavaScript arrays do not end with comma (,). That means, when ending an array, do not use a comma.
+	Right format should be something like this:
+	music: ["cqwmDWCRuCU", "9yplucq49zs"]
+	And this should not work:
+    music: ["cqwmDWCRuCU", "9yplucq49zs", ]
+*/
+
+var config = {
+    music: ["VpZk0l6LV5s", "56sxLl-jXc4"],
+    songnames: ["Mati Nuude - No Oota Sa!", "lilbubblegum - af1"],
     musicVolume: 40, // volume should be under 50% to not cause earrape
     enableMusic: true
 }
+
+/*
+    TODO: the loading screen crashes when only one song is present in the array.
+    Also, when you want to test out the config in your browser, these browsers do not work (atleast for me):
+    - Opera GX
+    Tested and working browsers
+    - Google Chrome
+    - Microsoft Edge
+    - Mozilla Firefox
+*/
