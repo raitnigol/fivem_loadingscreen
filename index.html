@@ -12,6 +12,7 @@
     <script type='text/javascript' src='js/jquery.particleground.js'></script>
     <script type='text/javascript' src='js/demo.js'></script>
     <script type='text/javascript' src='js/showRealTime.js'></script>
+    <script type='text/javascript' src='js/script.js'></script>
 </head>
 <body onload='startTime()'>
 	<div id='player'></div>
@@ -23,10 +24,11 @@
                 <p class='loading'>Joining</p>
             </div>
             <div id='currentSong'>Oops! Cannot show the current song.</div>
-            <div id='pressspacebar'><font face='Montserrat' size='3px'> Press
-              <span id='changeColor'>SPACEBAR</span> to mute the audio</div>
+            <div id='pressspacebar'><font face='Montserrat' size='3px'>Press
+              <span id='changeColor'>SPACEBAR</span> to <span id = 'muteStatus'>mute</span> the audio</div>
             <div id='discord'><font face='Montserrat' size='3px'>discord.gg/your_discord</font></div>
             <div id='showRealTime'></div>
+            <div id = 'skipSongTip'><font face = 'Montserrat' size='3px'>Press <span id = skipSongTipLetter>A</span> to skip the current song</font></div>
             <script src='js/synn.js'></script>
             <script src='js/config.js'></script>
             <script src='js/music-handler.js'></script>

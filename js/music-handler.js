@@ -109,8 +109,12 @@ function setVolume(volume) {
 // Get the song name and show it on the loading screen.
 var songName = config.songnames[musicIndex];
 document.getElementById("currentSong").innerHTML = "Currently playing: " + songName;
-//mute when pressing spacebar 
+
+// Mute when pressing spacebar.
 var keyPressed = document.getElementById("changeColor");
+
+// Change the text to show if the audio is muted or not.
+var muteStatus = document.getElementById("muteStatus");
 
 function onKeyDown(event) {
     switch (event.keyCode) {
@@ -118,11 +122,14 @@ function onKeyDown(event) {
             if (play) {
                 player.pauseVideo();
                 play = false;
+                // Change the colors to what you like, but I think the default red / green works best.
                 keyPressed.style.color = "red";
+                // muteStatus.innerHTML = "unmute";
             } else {
                 player.playVideo();
                 play = true;
                 keyPressed.style.color = "green";
+                // muteStatus.innerHTML = "mute";
             }
             break;
     }
